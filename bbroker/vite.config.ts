@@ -9,7 +9,11 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5000,
-    allowedHosts: ['all'],
+    allowedHosts: [
+      '474d1f33-d192-4591-b114-5ec94cabd890-00-1t9dcl01zdiyp.spock.replit.dev',
+      'localhost',
+      '.replit.dev'
+    ],
   },
   resolve: {
     alias: {
